@@ -36,6 +36,21 @@ from utime import sleep
 led1 = Pin(0, Pin.OUT)
 led2 = Pin(4, Pin.OUT)
 led = Pin(10, Pin.OUT)
+while True:
+    led1.toggle()
+    sleep(0.5)
+    led2.toggle()
+    sleep(0.5)
+    led.toggle()
+    sleep(0.5)
+    
+
+
+from machine import Pin
+from utime import sleep
+led1 = Pin(0, Pin.OUT)
+led2 = Pin(4, Pin.OUT)
+led = Pin(10, Pin.OUT)
 buzz=Pin(7,Pin.OUT)
 while True:
     led1.toggle()
@@ -61,7 +76,9 @@ while True:
  
 
 
-## OUPUT  
+## OUPUT
+![Screenshot 2025-02-24 113014](https://github.com/user-attachments/assets/b46c17fe-3a4a-4668-9108-6a66c4fc2cbb)
+ 
 ![Screenshot 2025-02-24 111646](https://github.com/user-attachments/assets/8693a3c8-7c8c-4b30-9aae-2de744e30a18)
 
 
