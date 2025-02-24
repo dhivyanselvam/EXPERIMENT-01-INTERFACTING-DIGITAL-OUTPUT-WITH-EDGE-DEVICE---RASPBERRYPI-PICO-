@@ -37,6 +37,7 @@ led1 = Pin(0, Pin.OUT)
 while True:
     led1.toggle()
     sleep(0.5)
+```
 
     
 
@@ -52,7 +53,7 @@ while True:
     sleep(0.5)
     led.toggle()
     sleep(0.5)
-    
+ ```
 
 
 from machine import Pin
@@ -74,16 +75,7 @@ while True:
     sleep(0.5)
     buzz.toggle()
     sleep(0.5)
-
-
-
-
- 
-
-
-
- 
-
+```
 
 ## OUPUT
 ![Screenshot 2025-02-24 113502](https://github.com/user-attachments/assets/075cbd42-44e2-49c2-849c-065eceb14dcf)
